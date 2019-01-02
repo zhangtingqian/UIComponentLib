@@ -4,7 +4,12 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import Button from './components/button/index.js'
+import './assets/theme-chalk/button.css'
+
 Vue.config.productionTip = false
+
+Vue.use(Button)
 
 /* eslint-disable no-new */
 new Vue({
